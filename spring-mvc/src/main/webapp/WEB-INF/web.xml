@@ -14,4 +14,8 @@
   	<servlet-name>hanoi-dispatcher</servlet-name>
   	<url-pattern>/</url-pattern>
   </servlet-mapping>
+  
+  <listener>
+  	<listener-class>org.java.spring.AppContextLoaderListener</listener-class>
+  </listener>
 </web-app>
